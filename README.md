@@ -9,7 +9,7 @@ Este é um aplicativo Android nativo desenvolvido em Kotlin que permite ao usuá
 - ✅ Adicionar novas tarefas
 - 🗂️ Visualizar a lista de tarefas
 - ❌ Remover tarefas concluídas
-- 🖋️ Editar tarefas (se implementado)
+- 🖋️ Editar tarefas
 - 💾 Salvamento local usando Room
   
 ---
