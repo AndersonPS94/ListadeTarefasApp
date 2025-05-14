@@ -1,9 +1,9 @@
-package com.jamiltondamasceno.applistatarefas.database
+package com.andersonpsdev.applistatarefas.data.local.database
 
 import android.content.ContentValues
 import android.content.Context
 import android.util.Log
-import com.jamiltondamasceno.applistatarefas.model.Tarefa
+import com.andersonpsdev.applistatarefas.domain.model.Tarefa
 
 class TarefaDAO(context: Context): ITarefaDAO {
     private val escrita = DatabaseHelper(context).writableDatabase

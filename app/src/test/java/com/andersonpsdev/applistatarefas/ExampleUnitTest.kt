@@ -1,4 +1,4 @@
-package com.jamiltondamasceno.applistatarefas
+package com.andersonpsdev.applistatarefas
 
 import org.junit.Test
 

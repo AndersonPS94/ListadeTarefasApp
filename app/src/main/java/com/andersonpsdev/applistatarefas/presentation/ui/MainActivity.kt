@@ -1,16 +1,15 @@
-package com.jamiltondamasceno.applistatarefas
+package com.andersonpsdev.applistatarefas.presentation.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.jamiltondamasceno.applistatarefas.adapter.TarefaAdapter
-import com.jamiltondamasceno.applistatarefas.database.TarefaDAO
+import com.andersonpsdev.applistatarefas.presentation.adapter.TarefaAdapter
+import com.andersonpsdev.applistatarefas.data.local.database.TarefaDAO
+import com.andersonpsdev.applistatarefas.domain.model.Tarefa
 import com.jamiltondamasceno.applistatarefas.databinding.ActivityMainBinding
-import com.jamiltondamasceno.applistatarefas.model.Tarefa
 
 class MainActivity : AppCompatActivity() {
 

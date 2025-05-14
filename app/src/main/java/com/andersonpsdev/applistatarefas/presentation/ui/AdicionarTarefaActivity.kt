@@ -1,12 +1,11 @@
-package com.jamiltondamasceno.applistatarefas
+package com.andersonpsdev.applistatarefas.presentation.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.jamiltondamasceno.applistatarefas.database.TarefaDAO
+import com.andersonpsdev.applistatarefas.data.local.database.TarefaDAO
+import com.andersonpsdev.applistatarefas.domain.model.Tarefa
 import com.jamiltondamasceno.applistatarefas.databinding.ActivityAdicionarTarefaBinding
-import com.jamiltondamasceno.applistatarefas.databinding.ActivityMainBinding
-import com.jamiltondamasceno.applistatarefas.model.Tarefa
 
 class AdicionarTarefaActivity : AppCompatActivity() {
 

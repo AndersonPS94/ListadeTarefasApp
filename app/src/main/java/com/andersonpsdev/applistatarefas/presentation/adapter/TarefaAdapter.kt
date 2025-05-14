@@ -1,10 +1,10 @@
-package com.jamiltondamasceno.applistatarefas.adapter
+package com.andersonpsdev.applistatarefas.presentation.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.jamiltondamasceno.applistatarefas.databinding.ItemTarefaBinding
-import com.jamiltondamasceno.applistatarefas.model.Tarefa
+import com.andersonpsdev.applistatarefas.domain.model.Tarefa
+import com.andersonpsdev.applistatarefas.databinding.ItemTarefaBinding
 
 class TarefaAdapter(
 
@@ -29,7 +29,7 @@ class TarefaAdapter(
             binding = itemBinding
         }
 
-        fun bind( tarefa: Tarefa ){
+        fun bind( tarefa: Tarefa){
             binding.textDescricao.text = tarefa.descricao
             binding.textData.text = tarefa.dataCadastro
 

@@ -1,4 +1,4 @@
-package com.jamiltondamasceno.applistatarefas.model
+package com.andersonpsdev.applistatarefas.domain.model
 
 import java.io.Serializable
 

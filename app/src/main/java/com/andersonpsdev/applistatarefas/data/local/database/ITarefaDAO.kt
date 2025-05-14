@@ -1,6 +1,6 @@
-package com.jamiltondamasceno.applistatarefas.database
+package com.andersonpsdev.applistatarefas.data.local.database
 
-import com.jamiltondamasceno.applistatarefas.model.Tarefa
+import com.andersonpsdev.applistatarefas.domain.model.Tarefa
 
 interface ITarefaDAO {
 
